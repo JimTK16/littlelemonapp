@@ -1,13 +1,17 @@
 import './App.css'
 import Footer from './components/Footer'
-import Header from './components/Header'
-import Main from './components/Main'
+import Hero from './components/Hero'
+import MenuCategories from './components/MenuCategories'
+import MenuDishes from './components/MenuDishes'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
+      <Navigation />
+      <Hero />
+      <MenuCategories />
+      <MenuDishes />
       <Footer />
     </>
   )
